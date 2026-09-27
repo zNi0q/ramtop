@@ -1,0 +1,15 @@
+[package]
+name = "ramtop"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.35.0"
+egui_extras = "0.35"
+egui_plot = "0.36.0"
+libc = "0.2.189"
+sysinfo = "0.38.4"
+
+[dev-dependencies]
+egui_kittest = { version = "0.35", features = ["eframe", "wgpu"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
